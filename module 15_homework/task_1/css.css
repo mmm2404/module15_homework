@@ -1,0 +1,66 @@
+body{
+    background: rgb(0,7,36);
+    background: linear-gradient(90deg, rgba(0,7,36,1) 0%, rgba(9,121,118,1) 35%, rgba(0,212,255,1) 100%);
+  
+}
+
+
+.title{
+    font-size: 30px;
+    text-align: center;
+
+}
+.btn{
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(45, 92, 83);
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    padding:10px 20px;
+  
+ 
+}
+ .btn:hover{
+    box-shadow: 0px 4px 10px 4px rgba(34, 35, 40, 0.3);
+    transform: scale(1.05);
+ }
+
+.btn_text{
+    color: aliceblue;
+}
+.btn_icon {
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+  
+  
+
+}
+
+.btn_icon {
+    animation-duration: 1s;
+    animation-name: magic;
+    animation-iteration-count:infinite;
+  }
+  
+  @keyframes magic {
+    from {
+      transform: rotate(0);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+ 
+
+
